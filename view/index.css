@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.nav{
+    background-color:aqua;
+    width: 15%;
+}
+.main{
+    background-color: aquamarine;
+    width: 84%;
+}
+.btn_topic{
+    border-color: transparent;
+    background-color: transparent;
+}
+.btn_topic:hover{
+    color: brown;
+}
